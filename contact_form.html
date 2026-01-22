@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>צור קשר | הביובית של מוש - קבלו הצעת מחיר לשירותי ביובית</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="צור קשר | הביובית של מוש - שירותי ביובית בירושלים">
+    <meta name="description" content="צרו קשר עם הביובית של מוש לקבלת הצעת מחיר חינם. שירותי ביובית, פתיחת סתימות, ניקוי בלחץ גבוה בירושלים והסביבה. התקשרו: 058-7883-440">
+    <meta name="keywords" content="צור קשר ביובית, הצעת מחיר ביובית, ביובית ירושלים טלפון, שירותי ביוב מחירים">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="הביובית של מוש">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://moshjetting.co.il/contact_form.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://moshjetting.co.il/contact_form.html">
+    <meta property="og:title" content="צור קשר | הביובית של מוש">
+    <meta property="og:description" content="צרו קשר לקבלת הצעת מחיר לשירותי ביובית מקצועיים בירושלים והסביבה.">
+    <meta property="og:image" content="https://moshjetting.co.il/img/og-image.jpg">
+    <meta property="og:locale" content="he_IL">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://moshjetting.co.il/contact_form.html">
+    <meta property="twitter:title" content="צור קשר | הביובית של מוש">
+    <meta property="twitter:description" content="צרו קשר לקבלת הצעת מחיר לשירותי ביובית מקצועיים.">
+    
+    <meta name="theme-color" content="#FF6600">
+    
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #FF6600;
+            --primary-dark: #e55c00;
+            --secondary-color: #1a1a2e;
+            --accent-color: #16213e;
+            --light-bg: #f8f9fa;
+            --success-color: #28a745;
+            --shadow: 0 10px 40px rgba(0,0,0,0.15);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: 'Heebo', sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+            padding: 20px;
+            margin: 0;
+        }
+
+        .page-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .form-header img {
+            max-width: 120px;
+            margin-bottom: 15px;
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+        }
+
+        .form-header h1 {
+            color: #fff;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .form-header p {
+            color: rgba(255,255,255,0.8);
+            font-size: 1rem;
+        }
+
+        #form-wrapper {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            animation: slideUp 0.5s ease;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .service-section {
+            background: var(--light-bg);
+            padding: 25px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .section-title i {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 12px;
+        }
+
+        .service-card {
+            background: #fff;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 18px 12px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .service-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 102, 0, 0.15);
+        }
+
+        .service-card.selected {
+            border-color: var(--primary-color);
+            background: linear-gradient(135deg, #fff5eb 0%, #fff 100%);
+        }
+
+        .service-card.selected::after {
+            content: '\f00c';
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            background: var(--primary-color);
+            color: #fff;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+        }
+
+        .service-card i {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .service-card span {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--secondary-color);
+            display: block;
+        }
+
+        .form-section {
+            padding: 25px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .form-group label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 500;
+            color: var(--secondary-color);
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        .form-group label i {
+            color: var(--primary-color);
+            width: 20px;
+        }
+
+        .form-group .optional {
+            font-size: 0.8rem;
+            color: #999;
+            font-weight: 400;
+        }
+
+        .form-control {
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 14px 18px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: #fff;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 4px rgba(255, 102, 0, 0.1);
+            outline: none;
+        }
+
+        .form-control::placeholder {
+            color: #adb5bd;
+        }
+
+        textarea.form-control {
+            resize: none;
+            min-height: 100px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+            border: none;
+            border-radius: 12px;
+            padding: 16px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(255, 102, 0, 0.3);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .submit-btn i {
+            font-size: 1.2rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 25px;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .contact-item i {
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+        }
+
+        .contact-item span {
+            font-size: 0.95rem;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .submit-btn.loading {
+            pointer-events: none;
+            opacity: 0.8;
+        }
+
+        .submit-btn.loading i {
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 15px; }
+            .form-header h1 { font-size: 1.5rem; }
+            .service-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+            .service-card { padding: 15px 10px; }
+            .service-card i { font-size: 1.6rem; }
+            .service-card span { font-size: 0.78rem; }
+            .service-section, .form-section { padding: 20px 15px; }
+            .contact-info { flex-direction: column; align-items: center; gap: 15px; }
+        }
+
+        @media (max-width: 400px) {
+            .service-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#myForm" class="skip-link" style="position: absolute; top: -100px; right: 0; background: #030f27; color: #fdbe33; padding: 15px 25px; z-index: 10000; transition: top 0.3s ease; text-decoration: none;">דלג לטופס</a>
+    
+    <div class="page-container">
+        <a href="index.html" class="back-link" aria-label="חזרה לעמוד הראשי">
+            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            חזרה לעמוד הראשי
+        </a>
+
+        <header class="form-header">
+            <a href="index.html" aria-label="הביובית של מוש - דף הבית">
+                <img src="img/plumbing .png" alt="לוגו הביובית של מוש - שירותי ביובית מקצועיים">
+            </a>
+            <h1>קבלת הצעת מחיר חינמית</h1>
+            <p>מלאו את הפרטים ונחזור אליכם בהקדם</p>
+        </header>
+
+        <main id="form-wrapper" role="main">
+            <form id="myForm">
+                <input type="hidden" name="NEW JOB">
+                <input type="hidden" name="TIME SUBMITTED" id="timestamp" value="">
+                <input type="hidden" name="service" id="service" value="">
+
+                <div class="service-section">
+                    <div class="section-title" id="service-label">
+                        <i class="fas fa-tools" aria-hidden="true"></i>
+                        בחרו את השירות הנדרש
+                    </div>
+                    <div class="service-grid" role="group" aria-labelledby="service-label">
+                        <div class="service-card" data-service="פתיחת סתימות" tabindex="0" role="button" aria-pressed="false">
+                            <i class="fas fa-wrench" aria-hidden="true"></i>
+                            <span>פתיחת סתימות</span>
+                        </div>
+                        <div class="service-card" data-service="שאיבת ביוב" tabindex="0" role="button" aria-pressed="false">
+                            <i class="fas fa-truck" aria-hidden="true"></i>
+                            <span>שאיבת ביוב</span>
+                        </div>
+                        <div class="service-card" data-service="ניקוי קווי ביוב" tabindex="0" role="button" aria-pressed="false">
+                            <i class="fas fa-tint" aria-hidden="true"></i>
+                            <span>ניקוי קווי ביוב</span>
+                        </div>
+                        <div class="service-card" data-service="צילום קווי ביוב" tabindex="0" role="button" aria-pressed="false">
+                            <i class="fas fa-video" aria-hidden="true"></i>
+                            <span>צילום קווי ביוב</span>
+                        </div>
+                        <div class="service-card" data-service="שאיבה מהירה" tabindex="0" role="button" aria-pressed="false">
+                            <i class="fas fa-bolt" aria-hidden="true"></i>
+                            <span>שאיבה מהירה</span>
+                        </div>
+                        <div class="service-card" data-service="שירותי חירום" tabindex="0" role="button" aria-pressed="false">
+                            <i class="fas fa-ambulance" aria-hidden="true"></i>
+                            <span>שירותי חירום</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <div class="form-group">
+                        <label for="phone">
+                            <i class="fas fa-phone-alt"></i>
+                            מספר טלפון
+                        </label>
+                        <input type="tel" class="form-control" id="phone" name="phone" 
+                               pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" 
+                               placeholder="050-1234-567" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="zip">
+                            <i class="fas fa-map-pin"></i>
+                            מיקוד
+                        </label>
+                        <input type="text" class="form-control" id="zip" name="zip" 
+                               maxlength="7" placeholder="1234567" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            כתובת <span class="optional">(אופציונלי)</span>
+                        </label>
+                        <input type="text" class="form-control" id="address" name="address" 
+                               placeholder="רחוב, מספר בית, עיר" dir="rtl">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="additional_info">
+                            <i class="fas fa-comment-alt"></i>
+                            מידע נוסף <span class="optional">(אופציונלי)</span>
+                        </label>
+                        <textarea class="form-control" id="additional_info" name="additional_info" 
+                                  rows="3" maxlength="280" 
+                                  placeholder="פרטים נוספים על הבעיה או בקשות מיוחדות..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        שליחת בקשה
+                    </button>
+                </div>
+            </form>
+        </main>
+
+        <footer class="contact-info" role="contentinfo">
+            <a href="tel:+972587883440" class="contact-item" aria-label="התקשרו אלינו - 058-7883-440">
+                <i class="fas fa-phone" aria-hidden="true"></i>
+                <span>058-7883-440</span>
+            </a>
+            <a href="mailto:info@moshjetting.co.il" class="contact-item" aria-label="שלחו אימייל">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+                <span>info@moshjetting.co.il</span>
+            </a>
+        </footer>
+    </div>
+
+    <script>
+        // Service card selection with keyboard support
+        $(document).ready(function() {
+            // Click and keyboard handler for service cards
+            function selectService(card) {
+                $('.service-card').removeClass('selected').attr('aria-pressed', 'false');
+                $(card).addClass('selected').attr('aria-pressed', 'true');
+                $('#service').val($(card).data('service'));
+            }
+            
+            $('.service-card').click(function() {
+                selectService(this);
+            });
+            
+            // Keyboard support for service cards
+            $('.service-card').on('keydown', function(e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    selectService(this);
+                }
+            });
+            
+            // Skip link focus
+            $('.skip-link').on('focus', function() {
+                $(this).css('top', '0');
+            }).on('blur', function() {
+                $(this).css('top', '-100px');
+            });
+
+            // Custom Hebrew validation messages
+            var phoneInput = document.getElementById('phone');
+            var zipInput = document.getElementById('zip');
+            var addressInput = document.getElementById('address');
+            
+            // Set custom validation messages
+            phoneInput.oninvalid = function(e) {
+                e.target.setCustomValidity('');
+                if (!e.target.validity.valid) {
+                    if (e.target.validity.valueMissing) {
+                        e.target.setCustomValidity('אנא הזינו מספר טלפון');
+                    } else if (e.target.validity.patternMismatch) {
+                        e.target.setCustomValidity('אנא הזינו מספר טלפון תקין (לדוגמה: 052-1234-567)');
+                    }
+                }
+            };
+            phoneInput.oninput = function(e) {
+                e.target.setCustomValidity('');
+            };
+            
+            zipInput.oninvalid = function(e) {
+                e.target.setCustomValidity('');
+                if (!e.target.validity.valid) {
+                    if (e.target.validity.valueMissing) {
+                        e.target.setCustomValidity('אנא הזינו מיקוד');
+                    }
+                }
+            };
+            zipInput.oninput = function(e) {
+                e.target.setCustomValidity('');
+            };
+            
+            addressInput.oninvalid = function(e) {
+                e.target.setCustomValidity('');
+                if (!e.target.validity.valid) {
+                    if (e.target.validity.valueMissing) {
+                        e.target.setCustomValidity('אנא הזינו כתובת');
+                    }
+                }
+            };
+            addressInput.oninput = function(e) {
+                e.target.setCustomValidity('');
+            };
+
+            // Phone formatting
+            document.getElementById('phone').addEventListener('input', function (e) {
+                var x = e.target.value.replace(/\D/g, '').match(/(\d{0,3})(\d{0,4})(\d{0,3})/);
+                e.target.value = !x[2] ? x[1] : x[1] + '-' + x[2] + (x[3] ? '-' + x[3] : '');
+            });
+
+            // Zip code - numbers only
+            document.getElementById('zip').addEventListener('input', function (e) {
+                e.target.value = e.target.value.replace(/[^0-9]/g, '');
+            });
+
+            // Form submission
+            $('#myForm').on('submit', function (e) {
+                e.preventDefault();
+                
+                // Check if service is selected
+                if (!$('#service').val()) {
+                    alert('אנא בחרו שירות');
+                    return;
+                }
+                
+                updateDateTimeField();
+                
+                var submitBtn = $('.submit-btn');
+                submitBtn.addClass('loading');
+                submitBtn.find('i').removeClass('fa-paper-plane').addClass('fa-spinner');
+
+                const formData = $(this).serializeArray();
+                const message = formData
+                    .map(field => field.name + ': ' + field.value)
+                    .map(field => translateFieldName(field))
+                    .join('\n');
+
+                const telegramApiUrl = 'https://api.telegram.org/bot7683946734:AAH0lpeS2fiu5j0rYp3CmBckVGfMh7nx9JQ/sendMessage';
+                const chatId = '6657233621';
+                
+                $.ajax({
+                    url: telegramApiUrl,
+                    method: 'POST',
+                    data: {
+                        chat_id: chatId,
+                        text: 'בקשת שירות חדשה:\n\n' + message,
+                    },
+                    success: function () {
+                        window.location.href = 'thank_you.html';
+                    },
+                    error: function (err) {
+                        submitBtn.removeClass('loading');
+                        submitBtn.find('i').removeClass('fa-spinner').addClass('fa-paper-plane');
+                        alert('שליחת הטופס נכשלה. אנא נסו שוב.');
+                        console.error('Error:', err);
+                    },
+                });
+            });
+
+            function updateDateTimeField() {
+                var now = new Date();
+                var day = now.getDate();
+                var month = now.getMonth() + 1;
+                var year = now.getFullYear();
+                var hour = now.getHours();
+                var minutes = now.getMinutes();
+                var ampm = hour >= 12 ? 'PM' : 'AM';
+                hour = hour % 12;
+                hour = hour ? hour : 12;
+                minutes = minutes < 10 ? '0' + minutes : minutes;
+                var dateString = hour + ':' + minutes + ' ' + day + '/' + month + '/' + year;
+                $('#timestamp').val(dateString);
+            }
+
+            function translateFieldName(field) {
+                const translations = {
+                    'NEW JOB': 'הביובית של מוש - עבודה מהאתר',
+                    'TIME SUBMITTED': 'זמן קבלת עבודה',
+                    'service': 'שירות',
+                    'phone': 'טלפון',
+                    'zip': 'מיקוד',
+                    'address': 'כתובת',
+                    'additional_info': 'מידע נוסף',
+                };
+                
+                var parts = field.split(': ');
+                var name = parts[0];
+                var value = parts[1];
+                return (translations[name] || name) + ': ' + value;
+            }
+        });
+    </script>
+</body>
+</html>

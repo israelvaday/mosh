@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>תודה על פנייתך | הביובית של מוש</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="תודה על פנייתך | הביובית של מוש">
+    <meta name="description" content="תודה שפניתם אלינו. נחזור אליכם בהקדם האפשרי.">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="theme-color" content="#FF6600">
+    
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #FF6600;
+            --primary-dark: #e55c00;
+            --secondary-color: #1a1a2e;
+            --accent-color: #16213e;
+            --success-color: #28a745;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: 'Heebo', sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .thank-you-container {
+            max-width: 550px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .thank-you-card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 50px 40px;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+            animation: slideUp 0.6s ease;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .logo-img {
+            max-width: 100px;
+            margin-bottom: 25px;
+        }
+
+        .success-icon {
+            width: 90px;
+            height: 90px;
+            background: linear-gradient(135deg, var(--success-color) 0%, #20c997 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+            animation: scaleIn 0.5s ease 0.3s both;
+        }
+
+        @keyframes scaleIn {
+            from { transform: scale(0); }
+            to { transform: scale(1); }
+        }
+
+        .success-icon i {
+            font-size: 45px;
+            color: #fff;
+        }
+
+        .thank-you-card h1 {
+            color: var(--secondary-color);
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .thank-you-card p {
+            color: #666;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .home-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+            color: #fff;
+            padding: 14px 35px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .home-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(255, 102, 0, 0.3);
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .contact-footer {
+            margin-top: 30px;
+            padding-top: 25px;
+            border-top: 1px solid #eee;
+        }
+
+        .contact-footer p {
+            color: #999;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .contact-links a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        .contact-links a:hover {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .contact-links a i {
+            color: var(--primary-color);
+        }
+
+        @media (max-width: 576px) {
+            .thank-you-card {
+                padding: 40px 25px;
+            }
+            
+            .thank-you-card h1 {
+                font-size: 1.5rem;
+            }
+            
+            .thank-you-card p {
+                font-size: 1rem;
+            }
+
+            .contact-links {
+                flex-direction: column;
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <div class="thank-you-card">
+            <a href="index.html">
+                <img class="logo-img" src="img/plumbing .png" alt="לוגו הביובית של מוש">
+            </a>
+            
+            <div class="success-icon">
+                <i class="fas fa-check"></i>
+            </div>
+            
+            <h1>בקשתכם נתקבלה בהצלחה!</h1>
+            <p>תודה שפניתם אלינו. צוות הביובית של מוש יצור איתכם קשר בהקדם האפשרי לתיאום השירות.</p>
+            
+            <a href="index.html" class="home-btn">
+                <i class="fas fa-home"></i>
+                חזרה לדף הבית
+            </a>
+            
+            <div class="contact-footer">
+                <p>לשירות מיידי ניתן ליצור קשר:</p>
+                <div class="contact-links">
+                    <a href="tel:+972587883440">
+                        <i class="fas fa-phone-alt"></i>
+                        058-7883-440
+                    </a>
+                    <a href="mailto:info@moshjetting.co.il">
+                        <i class="fas fa-envelope"></i>
+                        info@moshjetting.co.il
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

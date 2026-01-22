@@ -1,0 +1,23 @@
+# robots.txt for הביובית של מוש
+# https://moshjetting.co.il
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://moshjetting.co.il/sitemap.xml
+
+# Block access to library files
+Disallow: /lib/
+Disallow: /mail/
+
+# Allow search engines to crawl all important pages
+Allow: /index.html
+Allow: /contact_form.html
+Allow: /thank_you.html
+Allow: /css/
+Allow: /img/
+Allow: /js/
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1

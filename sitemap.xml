@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://moshjetting.co.il/</loc>
+        <lastmod>2026-01-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="he" href="https://moshjetting.co.il/"/>
+    </url>
+    
+    <!-- Contact Form Page -->
+    <url>
+        <loc>https://moshjetting.co.il/contact_form.html</loc>
+        <lastmod>2026-01-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="he" href="https://moshjetting.co.il/contact_form.html"/>
+    </url>
+    
+    <!-- Thank You Page -->
+    <url>
+        <loc>https://moshjetting.co.il/thank_you.html</loc>
+        <lastmod>2026-01-22</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="he" href="https://moshjetting.co.il/thank_you.html"/>
+    </url>
+    
+</urlset>
